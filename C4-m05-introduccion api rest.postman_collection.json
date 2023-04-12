@@ -1,0 +1,278 @@
+{
+	"info": {
+		"_postman_id": "16185556-0cc2-498e-a7a6-fee8bf6d3997",
+		"name": "C4-m05-introduccion api rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17239322"
+	},
+	"item": [
+		{
+			"name": "https://restcountries.com/v3.1/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/all",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/name/TONGA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/name/TONGA",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"name",
+						"TONGA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/name/tonga?fullText=true",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/name/tonga?fullText=true",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"name",
+						"tonga"
+					],
+					"query": [
+						{
+							"key": "fullText",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/alpha/TON",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/alpha/TON",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"alpha",
+						"TON"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/alpha?codes=TON;776;TO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/alpha?codes=TON;776;TO",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"alpha"
+					],
+					"query": [
+						{
+							"key": "codes",
+							"value": "TON;776;TO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/currency/tonga",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/currency/tonga",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"currency",
+						"tonga"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/lang/tongan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/lang/tongan",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"lang",
+						"tongan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/capital/nukualofa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/capital/Nuku'alofa",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"capital",
+						"Nuku'alofa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/callingcode/tonga",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/callingcode/76",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"callingcode",
+						"76"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/region/oceania",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/region/oceania",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"region",
+						"oceania"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/subregion/micronesia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/subregion/micronesia",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"subregion",
+						"micronesia"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v3.1/name/TONGA?fields=name,capital,currencies,",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/name/TONGA?fields=name,capital,currencies,",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"name",
+						"TONGA"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "name,capital,currencies,"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
